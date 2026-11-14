@@ -14,6 +14,6 @@ var WA_NUMBER = "";
     var msg='Bonjour, je m’appelle '+n+'. Niveau actuel : '+l+'. Filière souhaitée : '+f+'. Offre : '+o+'. Je souhaite étudier en Biélorussie.';
     if(!WA_NUMBER){st.textContent='Numéro WhatsApp non configuré : renseignez WA_NUMBER dans le code.';return;}
     st.textContent='Ouverture de WhatsApp…';
-    window.open('https://wa.me/'+375256549751'?text='+encodeURIComponent(msg),'_blank','noopener');
+    window.open('https://wa.me/'++375256549751+'?text='+encodeURIComponent(msg),'_blank','noopener');
   });
 })();
